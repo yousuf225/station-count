@@ -1,0 +1,56 @@
+#increment-btn{
+    color:white;
+    background-color: blueviolet;
+    border-start-start-radius: 100px;
+    border-radius: 250px;
+    font-size: 25px;
+}
+#save-btn {
+    font-size: 25px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+}
+#reset-btn{
+    font-size: 25px;
+    background-color: burlywood;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px  black;
+    
+
+}
+button {
+    border: none;
+    padding: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width:200px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border-color:black;
+}
+body {
+    background-image: url("https://cr.indianrailways.gov.in/cr/ImagesOfStations/1534508971298_Babupeth%20Railway%20Station.jpg");
+}
+h1{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: azure;
+    text-shadow: 2px 2px 2px black;
+ 
+}
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: coral;
+    border-radius: 50px;
+    text-shadow: 2px 2px 2px black;
+}
+p {
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
