@@ -31,7 +31,7 @@ button {
     border-color:black;
 }
 body {
-    background-image: url("https://cr.indianrailways.gov.in/cr/ImagesOfStations/1534508971298_Babupeth%20Railway%20Station.jpg");
+    background-image: url('platform.jpg');
 }
 h1{
     font-size: 50px;
