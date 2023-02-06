@@ -1,0 +1,32 @@
+.container{
+    font-size: 50px;
+    color:white;
+    text-decoration: wavy;
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    background-color: rgb(20, 0, 90);
+    
+}
+h2{
+    color: red;
+    font-size: 100px;
+    background: black;
+    border-width:20%;
+    margin: auto;
+    border: 5px white;
+    font-family:'digital-clock-font';
+    src: url('C:\Users\USER\Downloads\digital-7.ttf');
+   
+}
+
+button{
+    font-size: 25px;
+    background-color:transparent;
+    color:azure;  
+    border-color: white;
+}
+
+
+
