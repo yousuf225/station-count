@@ -17,6 +17,7 @@ function save(){
 }
 function reset(){
     document.getElementById("count-el").innerText = ""
+    document.getElementById("save-el").textContent = ""
     count=""
 }
 
