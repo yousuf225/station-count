@@ -12,7 +12,7 @@ function save(){
     let p = count  + " - "
     document.getElementById("save-el").textContent += p
     console.log(count)
-    document.getElementById("count-el").innerText =0
+    document.getElementById("count-el").innerText =count
     count = 0
 }
 function reset(){
