@@ -12,8 +12,8 @@ function save(){
     let p = count  + " - "
     document.getElementById("save-el").textContent += p
     console.log(count)
-    document.getElementById("count-el").innerText = ""
-    count = ""
+    document.getElementById("count-el").innerText =0
+    count = 0
 }
 function reset(){
     document.getElementById("count-el").innerText = ""
