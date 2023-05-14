@@ -17,7 +17,7 @@ function save(){
 }
 function reset(){
     document.getElementById("count-el").innerText = 0
-    count=""
+    count=0
 }
 
 
