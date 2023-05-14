@@ -16,8 +16,8 @@ function save(){
     count = 0
 }
 function reset(){
-    document.getElementById("count-el").innerText = 0
-    count = 0
+    document.getElementById("count-el").innerText = ""
+    count=""
 }
 
 
