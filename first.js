@@ -1,8 +1,9 @@
 
- let count = 0 
+let count = 0 
 const countEl= document.getElementById("count-el")
 const saveEl=document.getElementById("save-el")
 const resetEl=document.getElementById("reset-btn")
+
 function increment() {
    count += 1 
    countEl.innerText = count   
@@ -15,11 +16,11 @@ function save(){
     countEl.innerText =count
     count = 0
 }
-    function reset(){
-    resetEl.addEventListener('dblclick' ,function(){
-     countEl.textcontent=""
+   resetEl.addEventListener('click' ,function(){
+    countEl.textContent=0
+    saveEl.textContent="Previous Entries :"
     })
-    }
+
 
 
 
