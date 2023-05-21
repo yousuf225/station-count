@@ -15,11 +15,11 @@ function save(){
     countEl.innerText =count
     count = 0
 }
-function reset(){
+
     resetEl.addEventListener('dblclick' ,function(){
      countEl.textcontent=""
     })
-}
+
 
 
 
