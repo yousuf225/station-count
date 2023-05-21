@@ -17,6 +17,7 @@ function save(){
     count = 0
 }
    resetEl.addEventListener('click' ,function(){
+      count=0
     countEl.textContent=0
     saveEl.textContent="Previous Entries :"
     })
