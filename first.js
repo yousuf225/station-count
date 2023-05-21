@@ -1,23 +1,24 @@
 
  let count = 0 
-
+const countEl= document.getElementById("count-el")
+const saveEl=document.getElementById("save-el")
+const resetEl=document.getElementById("reset-btn")
 function increment() {
    count += 1 
-   document.getElementById("count-el").innerText = count
-  
-   
+   countEl.innerText = count   
 }
 function save(){
     
     let p = count  + " - "
-    document.getElementById("save-el").textContent += p
+    saveEl.textContent += p
     console.log(count)
-    document.getElementById("count-el").innerText =count
+    countEl.innerText =count
     count = 0
 }
 function reset(){
-    document.getElementById("count-el").innerText = 0
-    count=0
+    resetEl.addEventListener('dblclick' ,function(){
+     countEl.textcontent=""
+    })
 }
 
 
